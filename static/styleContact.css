@@ -1,0 +1,39 @@
+h3 {
+    text-align: center;
+    padding: 15px 0px;
+}
+
+#contactForm {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    height: 68vh;
+}
+
+.formInput {
+    padding: 5px 3px;
+    /* display: block; */
+    margin-top: 10px;
+    color: black;
+    font-size: 15px;
+    width: 250px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+#submit {
+    background-color: rgb(22, 22, 255);
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid rgb(22, 22, 255);
+    border-radius: 5px;
+    padding: 5px 20px;
+    margin: 20px 0px;
+}
+#submit:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid rgb(78, 78, 78);
+}

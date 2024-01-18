@@ -1,0 +1,55 @@
+doctype html
+html
+  head
+    title This is title
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul 
+          div#logo
+            img(src='../static/img/logo.png')
+            | HDA
+          li #[a(href="/") Home]
+          li #[a(href="/") About]
+          li #[a(href="/") Sevices]
+          li #[a(href="/") Class Info]
+          li #[a(href="/") Contact Us]
+
+    section#introSection 
+        div Welcome to Hiral's Dance Academy
+        div.small Eat Sleep Dance Repeat
+
+    section#missionSection 
+        h2 Our Mission
+        div.missionContainer
+          div.card
+            img(src='../static/img/1.png')
+            p.missionTitle Dance Perfection
+            p.missionInfo This is the best dance academy
+                
+
+          div.card
+            img(src='../static/img/2.png')
+            p.missionTitle Dance the way you like
+            p.missionInfo This is the best dance academy
+
+          div.card
+            img(src='../static/img/3.png')
+            p.missionTitle Dance Teaching
+            p.missionInfo This is the best dance academy This is the best dance academy
+            
+    section#sponsorSection 
+        h2 Our sponsor
+        div#sponsors
+          img(src='../static/img/logo1.png')
+          img(src='../static/img/logo2.png')
+          img(src='../static/img/logo3.png')
+          img(src='../static/img/logo4.png')
+
+    footer#footer 
+        | Copyright 2024 HDA.com | All rights reserved.
+
+
+    script
+      include ../static/index.js

@@ -1,0 +1,25 @@
+doctype html
+html 
+    head 
+        title My Site - #{title}
+        block scripts 
+        block style 
+            style 
+                include ../static/style.css
+
+    body 
+        nav#navbar
+            ul 
+                div#logo
+                    img(src='../static/img/logo.png')
+                    | HDA
+                li #[a(href="/") Home]
+                li #[a(href="/") About]
+                li #[a(href="/") Sevices]
+                li #[a(href="/") Class Info]
+                li #[a(href="/contact") Contact Us]
+
+        block content 
+
+        footer#footer 
+            | Copyright 2024 HDA.com | All rights reserved.
